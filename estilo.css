@@ -1,6 +1,6 @@
     @import url(//fonts.googleapis.com/css?family=Lato:400,900);
     @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-    
+
     .animate {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
@@ -234,6 +234,8 @@ Image credits: unsplash.com
     border-color: #1abc9c;
     outline: none;
     margin: 20px auto;
+    white-space: normal;
+    width: 100px;
 }
 
 /********************************/
@@ -266,4 +268,63 @@ Image credits: unsplash.com
 }
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }    
+}
+
+.hero h1, .hero h2{
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+h2{    
+    text-align: center;
+}
+
+.bs-docs-featurette-title {
+    font-size: 55px;
+}
+
+
+
+.media-object{
+    margin-top: 85px;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 200px;
+}
+
+.texto_izq p, .texto p{
+    width: 720px;    
+    text-align: justify;
+
+}
+
+.texto_izq h2{
+    text-align: left;
+    margin-right: 35px;
+}
+
+.texto h2{
+    text-align: right;
+    margin-right: 111px;
+}
+
+#contenidos{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#derecha{
+    float: right;
+}
+
+#google{
+    margin-top: 35px;
+    margin-bottom: 100px;
+    width: 370px;
+    height: 230px;
+}
+
+.texto{
+
+    padding-right: 100px;
+
 }
